@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		096AF77CDF67C388858C7FD1 /* libPods-gym.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB3DA1374B9E107590088F9 /* libPods-gym.a */; };
+		A3456D561E10476F00A69DA9 /* UAGApproach.m in Sources */ = {isa = PBXBuildFile; fileRef = A3456D3D1E10476F00A69DA9 /* UAGApproach.m */; };
+		A3456D581E10476F00A69DA9 /* UAGExercise.m in Sources */ = {isa = PBXBuildFile; fileRef = A3456D411E10476F00A69DA9 /* UAGExercise.m */; };
+		A3456D591E10476F00A69DA9 /* UAGExerciseContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = A3456D431E10476F00A69DA9 /* UAGExerciseContainer.m */; };
+		A3456D5B1E10476F00A69DA9 /* UAGExerciseType.m in Sources */ = {isa = PBXBuildFile; fileRef = A3456D471E10476F00A69DA9 /* UAGExerciseType.m */; };
+		A3456D601E10476F00A69DA9 /* UAGJournalItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A3456D511E10476F00A69DA9 /* UAGJournalItem.m */; };
+		A3456D611E10476F00A69DA9 /* UAGTraining.m in Sources */ = {isa = PBXBuildFile; fileRef = A3456D531E10476F00A69DA9 /* UAGTraining.m */; };
+		A36A92BB1E1C2F49008ED78B /* db.realm in Resources */ = {isa = PBXBuildFile; fileRef = A36A92BA1E1C2F15008ED78B /* db.realm */; };
+		A3B29C411DD2733700D66A4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B29C401DD2733700D66A4C /* main.m */; };
+		A3B29C441DD2733700D66A4C /* UAGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B29C431DD2733700D66A4C /* UAGAppDelegate.m */; };
+		A3B29C4D1DD2733700D66A4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3B29C4B1DD2733700D66A4C /* Main.storyboard */; };
+		A3B29C4F1DD2733700D66A4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3B29C4E1DD2733700D66A4C /* Assets.xcassets */; };
+		A3B29C521DD2733700D66A4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3B29C501DD2733700D66A4C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17A268F96E6EF46379AC0ADF /* Pods-gym.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gym.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gym/Pods-gym.debug.xcconfig"; sourceTree = "<group>"; };
+		7C30C14D5FC8A458571E222F /* Pods-gym.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gym.release.xcconfig"; path = "Pods/Target Support Files/Pods-gym/Pods-gym.release.xcconfig"; sourceTree = "<group>"; };
+		8DB3DA1374B9E107590088F9 /* libPods-gym.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gym.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3456D3C1E10476F00A69DA9 /* UAGApproach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGApproach.h; sourceTree = "<group>"; };
+		A3456D3D1E10476F00A69DA9 /* UAGApproach.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAGApproach.m; sourceTree = "<group>"; };
+		A3456D401E10476F00A69DA9 /* UAGExercise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGExercise.h; sourceTree = "<group>"; };
+		A3456D411E10476F00A69DA9 /* UAGExercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAGExercise.m; sourceTree = "<group>"; };
+		A3456D421E10476F00A69DA9 /* UAGExerciseContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGExerciseContainer.h; sourceTree = "<group>"; };
+		A3456D431E10476F00A69DA9 /* UAGExerciseContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAGExerciseContainer.m; sourceTree = "<group>"; };
+		A3456D461E10476F00A69DA9 /* UAGExerciseType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGExerciseType.h; sourceTree = "<group>"; };
+		A3456D471E10476F00A69DA9 /* UAGExerciseType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAGExerciseType.m; sourceTree = "<group>"; };
+		A3456D501E10476F00A69DA9 /* UAGJournalItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGJournalItem.h; sourceTree = "<group>"; };
+		A3456D511E10476F00A69DA9 /* UAGJournalItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAGJournalItem.m; sourceTree = "<group>"; };
+		A3456D521E10476F00A69DA9 /* UAGTraining.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGTraining.h; sourceTree = "<group>"; };
+		A3456D531E10476F00A69DA9 /* UAGTraining.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAGTraining.m; sourceTree = "<group>"; };
+		A36A92BA1E1C2F15008ED78B /* db.realm */ = {isa = PBXFileReference; lastKnownFileType = file; name = db.realm; path = Views/db.realm; sourceTree = "<group>"; };
+		A3B29C3C1DD2733700D66A4C /* gym.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gym.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3B29C401DD2733700D66A4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3B29C421DD2733700D66A4C /* UAGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UAGAppDelegate.h; sourceTree = "<group>"; };
+		A3B29C431DD2733700D66A4C /* UAGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UAGAppDelegate.m; sourceTree = "<group>"; };
+		A3B29C4C1DD2733700D66A4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3B29C4E1DD2733700D66A4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3B29C511DD2733700D66A4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3B29C531DD2733700D66A4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3B29C391DD2733700D66A4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096AF77CDF67C388858C7FD1 /* libPods-gym.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08BE1F2F94A2BF719517E8DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17A268F96E6EF46379AC0ADF /* Pods-gym.debug.xcconfig */,
+				7C30C14D5FC8A458571E222F /* Pods-gym.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A38D6FE31DD70225001FF9A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A3456D3C1E10476F00A69DA9 /* UAGApproach.h */,
+				A3456D3D1E10476F00A69DA9 /* UAGApproach.m */,
+				A3456D401E10476F00A69DA9 /* UAGExercise.h */,
+				A3456D411E10476F00A69DA9 /* UAGExercise.m */,
+				A3456D421E10476F00A69DA9 /* UAGExerciseContainer.h */,
+				A3456D431E10476F00A69DA9 /* UAGExerciseContainer.m */,
+				A3456D461E10476F00A69DA9 /* UAGExerciseType.h */,
+				A3456D471E10476F00A69DA9 /* UAGExerciseType.m */,
+				A3456D501E10476F00A69DA9 /* UAGJournalItem.h */,
+				A3456D511E10476F00A69DA9 /* UAGJournalItem.m */,
+				A3456D521E10476F00A69DA9 /* UAGTraining.h */,
+				A3456D531E10476F00A69DA9 /* UAGTraining.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A3B29C331DD2733700D66A4C = {
+			isa = PBXGroup;
+			children = (
+				A3B29C3E1DD2733700D66A4C /* gym */,
+				A3B29C3D1DD2733700D66A4C /* Products */,
+				08BE1F2F94A2BF719517E8DF /* Pods */,
+				E7EE644D8F990F0037732534 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A3B29C3D1DD2733700D66A4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3B29C3C1DD2733700D66A4C /* gym.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3B29C3E1DD2733700D66A4C /* gym */ = {
+			isa = PBXGroup;
+			children = (
+				A38D6FE31DD70225001FF9A8 /* Models */,
+				A3B29C421DD2733700D66A4C /* UAGAppDelegate.h */,
+				A3B29C431DD2733700D66A4C /* UAGAppDelegate.m */,
+				A36A92BA1E1C2F15008ED78B /* db.realm */,
+				A3B29C4B1DD2733700D66A4C /* Main.storyboard */,
+				A3B29C4E1DD2733700D66A4C /* Assets.xcassets */,
+				A3B29C501DD2733700D66A4C /* LaunchScreen.storyboard */,
+				A3B29C531DD2733700D66A4C /* Info.plist */,
+				A3B29C3F1DD2733700D66A4C /* Supporting Files */,
+			);
+			path = gym;
+			sourceTree = "<group>";
+		};
+		A3B29C3F1DD2733700D66A4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3B29C401DD2733700D66A4C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7EE644D8F990F0037732534 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DB3DA1374B9E107590088F9 /* libPods-gym.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3B29C3B1DD2733700D66A4C /* gym */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3B29C561DD2733700D66A4C /* Build configuration list for PBXNativeTarget "gym" */;
+			buildPhases = (
+				CA4C9DD7B3BFDE783C6FB0AD /* [CP] Check Pods Manifest.lock */,
+				A3B29C381DD2733700D66A4C /* Sources */,
+				A3B29C391DD2733700D66A4C /* Frameworks */,
+				A3B29C3A1DD2733700D66A4C /* Resources */,
+				2939401470FE107562037C70 /* [CP] Embed Pods Frameworks */,
+				7A2A3A4FC9BECF80E1D57FF8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gym;
+			productName = gym;
+			productReference = A3B29C3C1DD2733700D66A4C /* gym.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3B29C341DD2733700D66A4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Artem Ustimov";
+				TargetAttributes = {
+					A3B29C3B1DD2733700D66A4C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 449P4E8E7B;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A3B29C371DD2733700D66A4C /* Build configuration list for PBXProject "gym" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3B29C331DD2733700D66A4C;
+			productRefGroup = A3B29C3D1DD2733700D66A4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3B29C3B1DD2733700D66A4C /* gym */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3B29C3A1DD2733700D66A4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A36A92BB1E1C2F49008ED78B /* db.realm in Resources */,
+				A3B29C521DD2733700D66A4C /* LaunchScreen.storyboard in Resources */,
+				A3B29C4F1DD2733700D66A4C /* Assets.xcassets in Resources */,
+				A3B29C4D1DD2733700D66A4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2939401470FE107562037C70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gym/Pods-gym-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A2A3A4FC9BECF80E1D57FF8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gym/Pods-gym-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA4C9DD7B3BFDE783C6FB0AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3B29C381DD2733700D66A4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3456D611E10476F00A69DA9 /* UAGTraining.m in Sources */,
+				A3456D591E10476F00A69DA9 /* UAGExerciseContainer.m in Sources */,
+				A3B29C441DD2733700D66A4C /* UAGAppDelegate.m in Sources */,
+				A3B29C411DD2733700D66A4C /* main.m in Sources */,
+				A3456D601E10476F00A69DA9 /* UAGJournalItem.m in Sources */,
+				A3456D561E10476F00A69DA9 /* UAGApproach.m in Sources */,
+				A3456D581E10476F00A69DA9 /* UAGExercise.m in Sources */,
+				A3456D5B1E10476F00A69DA9 /* UAGExerciseType.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A3B29C4B1DD2733700D66A4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3B29C4C1DD2733700D66A4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3B29C501DD2733700D66A4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3B29C511DD2733700D66A4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3B29C541DD2733700D66A4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3B29C551DD2733700D66A4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3B29C571DD2733700D66A4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17A268F96E6EF46379AC0ADF /* Pods-gym.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 449P4E8E7B;
+				INFOPLIST_FILE = gym/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.ustimov.gym;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+			};
+			name = Debug;
+		};
+		A3B29C581DD2733700D66A4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C30C14D5FC8A458571E222F /* Pods-gym.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 449P4E8E7B;
+				INFOPLIST_FILE = gym/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.ustimov.gym;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3B29C371DD2733700D66A4C /* Build configuration list for PBXProject "gym" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B29C541DD2733700D66A4C /* Debug */,
+				A3B29C551DD2733700D66A4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3B29C561DD2733700D66A4C /* Build configuration list for PBXNativeTarget "gym" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B29C571DD2733700D66A4C /* Debug */,
+				A3B29C581DD2733700D66A4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3B29C341DD2733700D66A4C /* Project object */;
+}
